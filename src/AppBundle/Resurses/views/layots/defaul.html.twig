@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <div class="layout main-wrapper">
+        <div class="layot-region layout-region--hrader">
+            {% block header %} {% endblock %}
+        </div>
+        <div class="layout-region layout-region--content">
+            {% block content %} {% endblock %}
+        </div>
+        <div class="layout-region layout-region--footer">
+            &copy; 2017 webdom.dp.ua
+        </div>
+    </div>
+{% endblock %}
